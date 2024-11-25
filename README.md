@@ -4,11 +4,15 @@
 
 ## Interfaces
 
-    #### settings
+    settings
 
-        Hardware CRC [*] Disable hardware checksum offload
+        [*] Disable
 
-        Hardware TSO [*] Disable hardware TCP segmentation offload
+        hardware checksum offload 
+        #Para que server 
 
-        Hardware LRO [*] Disable hardware large receive offload
-        
+        Disable hardware TCP segmentation offload
+        #Para que server 
+
+        Disable hardware large receive offload
+        #Para que server 
