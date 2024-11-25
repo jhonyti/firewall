@@ -9,10 +9,10 @@
         [*] Disable
 
         hardware checksum offload 
-        #Para que server 
+        #Permite que a placa de rede calcule automaticamente os checksums de pacotes TCP, UDP e IP, reduzindo a carga de trabalho na CPU 
 
-        Disable hardware TCP segmentation offload
-        #Para que server 
+        hardware TCP segmentation offload
+        #Permite que a placa de rede divida grandes blocos de dados (offload) em pacotes menores de TCP, reduzindo a carga na CPU. 
 
-        Disable hardware large receive offload
-        #Para que server 
+        hardware large receive offload
+        #Combina vários pacotes recebidos em um único bloco grande antes de enviá-lo à CPU, otimizando o uso do processador. 
