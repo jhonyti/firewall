@@ -1,4 +1,3 @@
 # OPNsense
 
-## Iciar 
-    - Como 
+
