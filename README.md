@@ -16,3 +16,28 @@
 
         hardware large receive offload
         #Combina vários pacotes recebidos em um único bloco grande antes de enviá-lo à CPU, otimizando o uso do processador. 
+
+## Sytem 
+
+    Settings
+        
+        Acess
+            Users
+                root Disabled
+        
+        Geral
+            DNS server options
+            Permitir que a lista de servidores DNS seja substituída pelo DHCP/PPP na WAN.
+            Gateway switching Allow default gateway switching
+            Se o link onde o gateway padrão está localizado falhar, altere o gateway padrão para outro disponível.
+
+        Adminitration
+            Port HTTPS 4082
+            HTTP Redirect Disable web GUI redirect rule
+            Secure Shell
+                Enable Secure Shell
+            Permit root user login
+            Permit password login
+            
+        Authentication
+            Ask password        
